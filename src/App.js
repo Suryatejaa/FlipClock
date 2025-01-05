@@ -1,8 +1,10 @@
-<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
+import FlipClock from './flipClock';
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
+import ErrorBoundary from './ErrorBoundary';
 
-function App() {
+const AppContent = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -21,34 +23,20 @@ function App() {
       </header>
     </div>
   );
-}
+};
 
-=======
-import './App.css';
-import FlipClock from './flipClock';
-import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
-import ErrorBoundary from './ErrorBoundary';
-
-
-const AppContent = () =>{
-  return (
-    <Routes>
-      <Route path='/' element={<FlipClock />} />
-    </Routes>
-
-  );
-}
-
-const App = () => {
+function App() {
   return (
     <BrowserRouter>
       <ErrorBoundary>
-        <AppContent />
+        <Routes>
+          <Route path="/" element={<AppContent />} />
+          <Route path="/clock" element={<FlipClock />} />
+          <Route path="*" element={<Navigate to="/" />} />
+        </Routes>
       </ErrorBoundary>
     </BrowserRouter>
   );
 }
 
-
->>>>>>> f5e7a6907c51bacf4227187e27e10f494e05ec55
 export default App;

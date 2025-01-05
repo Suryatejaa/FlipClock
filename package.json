@@ -1,27 +1,8 @@
 {
-<<<<<<< HEAD
   "name": "flip-clock",
   "version": "0.1.0",
-  "homepage": "https://suryatejaa.github.io/FlipClock/",
   "private": true,
   "dependencies": {
-    "@mui/material": "^6.3.1",
-    "axios": "^1.7.9",
-    "cra-template": "1.2.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-router-dom": "^7.1.1",
-    "react-scripts": "5.0.1"
-=======
-  "name": "client",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.0",
-    "@fontsource/roboto": "^5.1.1",
-    "@mui/base": "^5.0.0-beta.68",
-    "@mui/icons-material": "^6.3.0",
     "@mui/material": "^6.3.1",
     "@mui/styles": "^6.3.1",
     "@mui/system": "^6.3.1",
@@ -40,19 +21,12 @@
     "redux": "^5.0.1",
     "yup": "^1.6.1",
     "zustand": "^5.0.2"
->>>>>>> f5e7a6907c51bacf4227187e27e10f494e05ec55
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-<<<<<<< HEAD
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-=======
     "eject": "react-scripts eject"
->>>>>>> f5e7a6907c51bacf4227187e27e10f494e05ec55
   },
   "eslintConfig": {
     "extends": [
@@ -71,19 +45,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-<<<<<<< HEAD
-    "gh-pages": "^6.3.0"
   }
-=======
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.17"
-  },
-  "main": "flipClock.js",
-  "author": "",
-  "license": "ISC",
-  "description": ""
->>>>>>> f5e7a6907c51bacf4227187e27e10f494e05ec55
 }
