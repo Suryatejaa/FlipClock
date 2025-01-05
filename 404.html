@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Not Found</title>
-    <meta http-equiv="refresh" content="0; URL=./index.html">
+    <title>Redirecting...</title>
 </head>
 <body>
+    <script>
+        // Redirect to index.html for React routing
+        var path = window.location.pathname.split('/');
+        var newPath = '/FlipClock/' + path.slice(2).join('/');
+        window.location.replace(newPath);
+    </script>
 </body>
 </html>
