@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/FlipClock.git/static/css/main.9df28562.css",
-    "main.js": "/FlipClock.git/static/js/main.0c861048.js",
-    "index.html": "/FlipClock.git/index.html",
-    "main.9df28562.css.map": "/FlipClock.git/static/css/main.9df28562.css.map",
-    "main.0c861048.js.map": "/FlipClock.git/static/js/main.0c861048.js.map"
+    "main.css": "/FlipClock/static/css/main.9df28562.css",
+    "main.js": "/FlipClock/static/js/main.0c861048.js",
+    "index.html": "/FlipClock/index.html",
+    "main.9df28562.css.map": "/FlipClock/static/css/main.9df28562.css.map",
+    "main.0c861048.js.map": "/FlipClock/static/js/main.0c861048.js.map"
   },
   "entrypoints": [
     "static/css/main.9df28562.css",
