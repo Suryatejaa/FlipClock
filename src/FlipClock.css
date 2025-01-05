@@ -177,6 +177,21 @@ body {
   font-size: 6rem;
 }
 
+.calcie{
+  width: 80px;
+  height: 30px;
+  font-size: 1.5rem;
+  background-color: #aaa;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.calcie:hover{
+  background-color: #f4f6f6;
+  color: #000;
+}
+
 /* Flip animations for the card */
 @keyframes flipTop {
   0% {
@@ -213,10 +228,10 @@ body {
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media (min-width: 300px) {
   .flip-card-front,
   .flip-card-back {
-    font-size: 7.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
   }
 
@@ -227,7 +242,7 @@ body {
     justify-content: center;
     /* padding: 10px; */
     width: 100%;
-    height: 140px;
+    height: 110px;
     background-color: #1f1f1f;
     border-radius: 8px;
     position: relative;
@@ -266,6 +281,142 @@ body {
     color: #f6fbfc;
     margin-top: -10px;
   }
+  .flip-label {
+    margin-top: -2px;
+    font-size: 1rem;
+    color: #aaa;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    padding-left: 10px;
+  }
+}
+
+@media (min-width: 530px) {
+
+  .flip-card-front,
+  .flip-card-back {
+    font-size: 5.5rem;
+    font-weight: bold;
+  }
+
+  .flip-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    /* padding: 10px; */
+    width: 100%;
+    height: 110px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    position: relative;
+  }
+
+  .flip-clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 20px;
+    width: 800px;
+    border-radius: 0px;
+    background: #000;
+    transform: scale(1);
+    /* max-width: 90vw; */
+    /* max-height: 100vh; */
+  }
+
+  .flip-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    /* font-size: 2rem; */
+    padding: 20px;
+    width: 800px;
+    border-radius: 0px;
+    background: #000;
+    transform: scale(1);
+  }
+
+  .separator {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f6fbfc;
+    margin-top: -10px;
+  }
+
+  .flip-label {
+    margin-top: -2px;
+    font-size: 1rem;
+    color: #aaa;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    padding-left: 10px;
+  }
+}
+
+@media (min-width: 930px) {
+
+  .flip-card-front,
+  .flip-card-back {
+    font-size: 12.5rem;
+    font-weight: bold;
+  }
+
+  .flip-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    /* padding: 10px; */
+    width: 100%;
+    height: 250px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    position: relative;
+  }
+
+  .flip-clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 20px;
+    width: 900px;
+    border-radius: 0px;
+    background: #000;
+    transform: scale(1);
+    /* max-width: 90vw; */
+    /* max-height: 100vh; */
+  }
+
+  .flip-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    /* font-size: 2rem; */
+    padding: 20px;
+    width: 900px;
+    border-radius: 0px;
+    background: #000;
+    transform: scale(1);
+  }
+
+  .separator {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f6fbfc;
+    margin-top: -10px;
+  }
+
   .flip-label {
     margin-top: -2px;
     font-size: 1rem;

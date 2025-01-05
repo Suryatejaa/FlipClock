@@ -62,6 +62,9 @@ const FlipClock = () => {
 
     return (
         <div className='flip-clock-container'>
+            <div>
+                <h3>It won't stop, get into work...</h3>
+            </div>
             <div className="flip-clock" style={{ cursor: 'pointer' }} onClick={handleDateClick}>
                 <FlipUnit className='digit' value={formatTime(time.getHours())} label="HH" />
                 <span className="separator">:</span>
@@ -76,6 +79,9 @@ const FlipClock = () => {
                 <FlipUnit className='month' value={formatTime(time.getMonth() + 1)} label="MM" />
                 <span className="separator">:</span>
                 <FlipUnit className='year' value={formatTime(time.getFullYear() - 2000)} label="YY" />
+            </div>
+            <div>
+                <button className='calcie' onClick={() => window.location.href = 'https://www.calcie.site'}>Calcie</button>
             </div>
 
         </div>
