@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Suryatejaa/FlipClock.git/static/css/main.9df28562.css",
+    "main.js": "/Suryatejaa/FlipClock.git/static/js/main.0c861048.js",
+    "index.html": "/Suryatejaa/FlipClock.git/index.html",
+    "main.9df28562.css.map": "/Suryatejaa/FlipClock.git/static/css/main.9df28562.css.map",
+    "main.0c861048.js.map": "/Suryatejaa/FlipClock.git/static/js/main.0c861048.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9df28562.css",
+    "static/js/main.0c861048.js"
+  ]
+}
