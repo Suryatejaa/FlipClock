@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/FlipClock/static/css/main.3b3b8839.css",
-    "main.js": "/FlipClock/static/js/main.82c6327f.js",
+    "main.js": "/FlipClock/static/js/main.0d1a3a10.js",
     "static/media/logo.svg": "/FlipClock/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/FlipClock/index.html",
     "main.3b3b8839.css.map": "/FlipClock/static/css/main.3b3b8839.css.map",
-    "main.82c6327f.js.map": "/FlipClock/static/js/main.82c6327f.js.map"
+    "main.0d1a3a10.js.map": "/FlipClock/static/js/main.0d1a3a10.js.map"
   },
   "entrypoints": [
     "static/css/main.3b3b8839.css",
-    "static/js/main.82c6327f.js"
+    "static/js/main.0d1a3a10.js"
   ]
 }
